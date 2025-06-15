@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background: linear-gradient(#58044a,#e642af);
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.card {
+  background-color: white;
+  width: 330px;
+  height: 430px;
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.G {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -60px;
+  border: 5px solid white;
+  box-shadow: 0 0 0 3px #0f1c46;
+}
+
+.tag {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: white;
+  background: linear-gradient(to right, #a70952, #a777e3);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #3d1717;
+}
+
+.A {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.B {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 8px;
+  font-size: 18px;
+  background-color: #3b5998;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.social-icons a:nth-child(2) {
+  background: #e4405f;
+  color: aliceblue;
+  font-size: 25px;
+}
+.social-icons a:nth-child(3) {
+  background: #0077b5;
+}
